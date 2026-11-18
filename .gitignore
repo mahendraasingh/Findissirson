@@ -1,0 +1,26 @@
+*.pyc
+__pycache__/
+sqlite_database.db
+classifier.pkl
+login_config.yml
+face_landmarker.task
+classifier_cache.txt
+CLAUDE.md
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# User resources & uploads
+resources/*.jpg
+resources/*.png
+resources/*.jpeg
+!resources/.gitkeep
+
+# Temporary log files
+*.log
